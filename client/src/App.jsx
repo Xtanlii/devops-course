@@ -12,6 +12,8 @@ function App() {
   const [error, setError] = useState(null);
   const [isDialogOpen, setIsDialogOpen] = useState(false);
 
+  let Stanley = "unused"
+
   // Fetch tasks on component mount
   useEffect(() => {
     fetchTasks();
