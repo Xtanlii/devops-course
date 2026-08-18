@@ -12,7 +12,6 @@ function App() {
   const [error, setError] = useState(null);
   const [isDialogOpen, setIsDialogOpen] = useState(false);
 
-  let Stanley = "unused"
 
   // Fetch tasks on component mount
   useEffect(() => {
@@ -62,7 +61,7 @@ function App() {
     fetchTasks();
   };
 
-  // let sangam = 'unused variable here';
+  let sangam = 'unused variable here';
 
   return (
     <div className="min-h-screen bg-gray-50">
